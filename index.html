@@ -3,14 +3,34 @@
     <head>
         <meta charset="utf-8">
         <title>Odin Recipes</title>
-        <link rel="stylesheet" href="styles.css" />
+        <style>
+            p {
+                background-color: green;
+                color: white;
+                font-size: 18px;
+            }
+        </style>
+        <link rel="stylesheet" href="../odin-recipes/css/styles.css">
+        <link rel="stylesheet" href="../odin-recipes/css/style-pr.css">
     </head>
     <body>
         <h1>Odin Recipes</h1>
-        <img src="imgs/lemon.jpg" alt="lemons on a table" height="450">
-        <ul>
-                <li><a href="recipes/donut.html">Baked donuts</a></li>
-                <li><a href="recipes/lemontart.html">Easy lemon tart</a></li>
+        <img class="lemon" src="imgs/lemon.jpg" alt="lemons on a table">
+        <ul class="menu">
+            <li><a class="donut" href="recipes/donut.html">Baked donuts</a></li>
+            <li><a class="tart" href="recipes/lemontart.html">Easy lemon tart</a></li>
          </ul>
+         <div>Style me via the external method!</div>
+         <p>I would like to be styled with the internal method, please.</p>
+        <button style="background-color: orange; font-size: 18px;">Inline Method </button>
+        <br>
+        <br>
+        <div class=pink> 
+            <div>Number 1 -I'm a class</div>
+            <div>Number 2 -I'm a class, I'm one ID.</div>
+            <div>Number 3 -I'm a class, but cooler!</div>
+            <div>Number 4 -I'm another ID.</div>
+            <div>Number 5 -I'm a class!</div>
+        </div>
     </body>
 </html>

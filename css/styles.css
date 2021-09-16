@@ -1,0 +1,21 @@
+h1 {
+    color: brown;
+    background-color: burlywood;
+    font-size: 60px;
+    text-align: center;
+}
+.donut,.tart {
+color: cadetblue;
+font-size: 30px;
+}
+.menu{
+    text-align: center;
+    color: cadetblue;
+    background-color: khaki;
+
+}
+.lemon {
+    height: auto;
+    width: 500px;
+    
+}
